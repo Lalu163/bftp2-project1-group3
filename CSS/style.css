@@ -72,5 +72,17 @@ img{
 
 .social-links{
 	display: flex;
-	justify-content: start;
+	justify-content: space-between;
+	width:48px;
+	
+
+}
+
+.linkedin{
+	height:20px;
+	
+}
+
+.github{
+	height:21px;
 }
