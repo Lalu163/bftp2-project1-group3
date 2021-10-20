@@ -1,9 +1,71 @@
-/**,
+*,
 *:before,
 *:after {
 	box-sizing: border-box;
-}*/
+}
 
 * {
 	margin: 0;
+}
+body{
+	background-color: #F0EFE5;
+}
+
+a{
+	color: currentColor;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 1.2rem;
+}
+
+header{
+	background-color: brown;
+	color: white;
+	display: flex;
+	max-height: 60px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 30px;
+}
+
+nav ul{
+	display:flex;
+
+}
+
+nav ul li{
+	list-style: none;
+	padding: 0 10px;
+}
+
+
+img{
+	width: 100%;
+}
+
+.logo{
+	width: 40px;
+	display: flex;
+	align-items: center;
+
+}
+.logo span{
+	margin-left: 10px;
+}
+
+
+.equipo{
+	display: flex;
+}
+
+.intro{
+	margin: auto 30px;
+	padding: 40px 0;
+}
+.member{
+	max-width: 250px;
+	margin: 30px;
 }
