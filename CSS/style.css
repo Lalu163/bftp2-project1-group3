@@ -7,11 +7,12 @@
 * {
 	margin: 0;
 }
-body{
-	background-color: #F0EFE5;
+
+body {
+	background-color: #f0efe5;
 }
 
-a{
+a {
 	color: currentColor;
 	text-decoration: none;
 }
@@ -21,68 +22,88 @@ h1 {
 	margin-bottom: 1.2rem;
 }
 
-header{
-	background-color: brown;
-	color: white;
+.container {
 	display: flex;
-	max-height: 60px;
+	max-width: 1300px;
 	justify-content: space-between;
 	align-items: center;
 	padding: 5px 30px;
+	margin: auto;
 }
 
-nav ul{
-	display:flex;
+/*header .container {
+	padding-left: 18px;
+	padding-right: 40px;
+}*/
 
+header {
+	background-color: brown;
+	color: white;
+
+	max-height: 60px;
 }
 
-nav ul li{
+nav ul {
+	display: flex;
+}
+
+nav ul li {
 	list-style: none;
 	padding: 0 10px;
 }
 
-
-img{
+img {
 	width: 100%;
 }
 
-.logo{
+.logo {
 	width: 40px;
 	display: flex;
 	align-items: center;
-
 }
-.logo span{
+.logo span {
 	margin-left: 10px;
 }
 
-
-.equipo{
+.equipo {
 	display: flex;
 }
 
-.intro{
+.intro {
 	margin: auto 30px;
 	padding: 40px 0;
 }
-.member{
+.member {
 	max-width: 250px;
 	margin: 30px;
 }
 
-.social-links{
+.social-links {
 	display: flex;
 	justify-content: space-between;
-	width:48px;
-	
-
+	width: 48px;
 }
 
-.linkedin{
-	height:20px;
-	
+.linkedin {
+	height: 20px;
 }
 
-.github{
-	height:21px;
+.github {
+	height: 21px;
+}
+
+.photo img {
+	border-radius: 50%;
+	width: 250px;
+}
+
+.photo {
+	width: 250px;
+	height: 250px;
+	margin-bottom: 10px;
+}
+
+.description h3,
+.description p {
+	margin-bottom: 15px;
 }
