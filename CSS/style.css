@@ -10,7 +10,10 @@
 
 body {
 	background-color: #f0efe5;
+	font-family: 'Noto Sans Mono', monospace;
+	font-size: 15px;
 }
+
 
 a {
 	color: currentColor;
