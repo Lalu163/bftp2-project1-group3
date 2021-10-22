@@ -29,7 +29,7 @@ h1 {
 	/*max-width: 1300px;*/
 	justify-content: space-between;
 	align-items: center;
-	padding: 5px 30px;
+	padding: 0px 30px;
 	/*margin: auto;*/
 }
 
@@ -47,11 +47,16 @@ header {
 
 nav ul {
 	display: flex;
+	flex-direction: row;
 }
 
 nav ul li {
 	list-style: none;
+	display: flex;
 	padding: 0 10px;
+	align-items: center;
+	justify-items: center;
+	
 }
 
 img {
@@ -69,6 +74,7 @@ img {
 
 .equipo {
 	display: flex;
+	justify-content: center;
 }
 
 .intro {
@@ -109,3 +115,10 @@ img {
 .description p {
 	margin-bottom: 15px;
 }
+
+.active {
+ background-color: aqua;
+ display: inline-block;
+ height: 60px;
+}
+
