@@ -270,6 +270,8 @@ main {
 background-color: white;
 margin:15px 0px;
 text-align: center;
+}
 
-
+header .link:hover {
+	background-color: rgba(253,78, 78, 0.3); 
 }
