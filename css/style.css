@@ -117,7 +117,7 @@ a {
 	height: 21px;
 }
 
-.photo img {
+.photo img, .foto-perfil {
 	border-radius: 50%;
 	width: 250px;
 	transition: 1s; /*tiempo de cambio de la foto*/
@@ -274,4 +274,18 @@ text-align: center;
 
 header .link:hover {
 	background-color: rgba(253,78, 78, 0.3); 
+}
+
+/*----------PAGINAS PERSONALES----------*/
+
+.intro.perfil{
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.presentacion{
+	max-width: 700px;
+}
+.img-bg{
+	background-image: ;
 }
