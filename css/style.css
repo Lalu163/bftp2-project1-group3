@@ -284,8 +284,13 @@ header .link:hover {
 	align-items: center;
 }
 .presentacion{
-	max-width: 700px;
+	padding:3%;
 }
-.img-bg{
-	background-image: ;
+
+.skills img{
+	max-width: 513px;
+	display: flex;
+	margin:auto;
+
 }
+
