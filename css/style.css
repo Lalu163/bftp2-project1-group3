@@ -280,17 +280,23 @@ header .link:hover {
 
 .intro.perfil{
 	display:flex;
-	justify-content: space-evenly;
 	align-items: center;
 }
 .presentacion{
 	padding:3%;
 }
 
-.skills img{
-	max-width: 513px;
-	display: flex;
-	margin:auto;
-
+.frontend-img{
+	
+	display:flex;
+	align-items: center;
+	
 }
 
+.intro.skills{
+	
+	background-color: white;
+}
+h2{
+	padding-left: 3%;
+}
