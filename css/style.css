@@ -170,7 +170,7 @@
 	#kiko-slider > ul.slider {
 		position: relative;
 		width: 100%;
-		height: 70vh;
+		height: 35vh;
 	}
 	
 	#kiko-slider > ul.slider li {
@@ -185,9 +185,9 @@
 	}
 	
 	#kiko-slider > ul.slider li img {
-		width: 65%;
-		height: 70vh;
-		object-fit: cover;
+		width: 100%;
+		height: 35vh;
+		object-fit: contain;
 		margin: auto;
 		display: block;
 	}
@@ -422,7 +422,7 @@
 		}
 		
 		#kiko-slider > ul.slider li img {
-
+			width: 60%;
 		}
 		
 		#kiko-slider > ul.slider li:first-child {
