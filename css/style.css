@@ -269,8 +269,8 @@ header .link:hover {
 }
 
 .intro.skills {
-	background-color: #fff;
-	/*background-color: #dbdbd2;*/
+	/*background-color: #fff;*/
+	background-color: #dbdbd2;
 }
 
 h2 {
@@ -312,3 +312,5 @@ footer ul {
 	width: 35px;
 	opacity: 0.7;
 }
+
+/*----------MEDIA------------------------------------------------*/
