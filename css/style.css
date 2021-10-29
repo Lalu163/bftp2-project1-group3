@@ -463,7 +463,7 @@
 	/*----------PAGINAS PERSONALES------------------------------------------------*/
 	
 		.perfil {
-			
+			flex-direction: row;
 
 		}
 		
