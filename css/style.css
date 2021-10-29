@@ -238,6 +238,7 @@
 	.perfil {
 		display: flex;
 		align-items: center;
+		flex-direction: column;
 	}
 	
 	.presentacion {
@@ -251,6 +252,7 @@
 	.frontend-img {
 		display: flex;
 		align-items: center;
+		flex-direction: column;
 	}
 	
 	.intro.skills {
@@ -262,7 +264,7 @@
 	}
 	
 	.foto-personal img {
-		width: 250px;
+		
 		margin-bottom: 15px;
 	}
 	
@@ -461,6 +463,7 @@
 	/*----------PAGINAS PERSONALES------------------------------------------------*/
 	
 		.perfil {
+			
 
 		}
 		
@@ -473,6 +476,7 @@
 		}
 		
 		.frontend-img {
+			
 
 		}
 		
@@ -485,7 +489,13 @@
 		}
 		
 		.foto-personal img {
+			width: 250px;
+			
 
+
+		}
+		.frontend-img img {
+			max-width: 460px;
 		}
 	
 	/*----------FOOTER------------------------------------------------*/
@@ -600,9 +610,23 @@
 		header .link:hover {
 
 		}
-	
+		.frontend-img {
+			flex-direction: row;
+			max-width: inherit;
+			justify-content: center;
+			min-width: 510px;
+			
+
+		}
+		.frontend-img img {
+		
+			min-width: 510px;
+			
+
+		}
 
 
+		
 }
  
 /* / Escritorios muy anchos */
