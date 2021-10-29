@@ -72,8 +72,8 @@
 	}
 	
 	.logo img, .logo a {
-		max-height: 46px;
-		min-width: 30px;
+		width: 34px;
+		height: 34px;
 	}
 	
 	.logo {
@@ -331,8 +331,9 @@
 		.link.active {
 		}
 		
-		.logo img, a {
-
+		.logo img, .logo a {
+			width: 46px;
+			height: 46px;
 		}
 		
 		.logo {
